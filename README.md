@@ -42,4 +42,7 @@ that contains a lot of binding redirects)
 * removed web.config and added an app.config with bindingredirects 
 * app started up to the call to `AddIdentityServerAuthentication` and then the addembly load exception for the IdentityModel.dll reappeared
 
+# Issue fixed
+
+Commit 33d281c65f10feeb8d94af17ade4144f95351941 fixes the issue by using IdentityServer4.AccessTokenValidation 2.7.0-preview2
 
